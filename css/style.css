@@ -1,0 +1,348 @@
+
+
+/* ---------------------------------------------------------------------- */
+/*	Import styles
+/* ---------------------------------------------------------------------- */
+
+@import url("../css/normalize.css");
+
+/* bootstrap.css  - include resetes ( Media querys, grid-responsive,layout).*/
+@import url("../css/bootstrap/bootstrap.css");
+@import url("../css/bootstrap/bootstrap-theme.css");
+
+/* Fonts*/
+@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
+@import url(http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900);
+
+/* Owl Carousel */
+@import url("../css/owl.carousel.css");
+/* Font Awesome */
+@import url("../css/font-awesome.min.css");
+/* Animate and more*/
+@import url("../css/animate.css");
+@import url("../css/bootstrap-lightbox.css");
+
+
+/* ESTILOS GENERALES*/
+
+
+body{
+	
+	line-height:30px;
+	color:#4d4d4d;
+	background: #fff;
+	font-family: Lato;
+	font-size: 16px;
+	font-weight: 300;
+	
+}
+a{	
+	color: #232323;
+	letter-spacing: 1px;
+	font-weight: 400;
+
+}
+
+p{
+	
+	color:#33454E;
+	line-height: 27px;
+	font-weight:300;
+	color: #9a9a9a;
+	word-wrap: break-word;
+	font-size: 1.2em;
+}
+h1 {color:#4d4d4d;
+	font-size:2em;
+	font-weight: 700;
+	line-height: 1em;
+	text-transform: uppercase;
+}
+
+
+
+h2 {
+	
+	color:#c03546;
+	font-size: 1.8em;
+	font-weight: 200px;
+	
+
+}
+
+
+
+h3 {
+
+	font-size:.1.5em;
+	color:#14C3A2;
+	padding-bottom: 0.4em;
+}
+h4 {font-size:16px;}
+h5 {font-size:14px;}
+h6 {font-size:12px;}
+
+
+img{
+	max-width: 100%;
+}
+.clearfix{
+	width:1px;
+	height:1px;	
+	display:block;
+	clear:both;
+	content:" , ";
+}
+
+
+.contenedor{
+
+	padding: 4em 0em;
+}
+
+
+/* header */
+
+
+#header{
+
+	background-color: #f5f5f5;
+	padding: 1em 0;
+	text-align: center;
+}
+
+#logo{
+
+	background-color: gray;
+}
+
+
+
+#header ul{
+
+	margin-top: 1em;
+	text-align: center;
+}
+
+#header ul li{
+
+	display: inline-block;
+	list-style: none;
+	margin-right: 4em;
+}
+
+#header ul li a{
+
+	font-size: 1.3em;
+}
+
+#header ul li a:hover{
+
+	
+	color:#e84a5f;
+
+}
+
+#fullvideo{
+
+	height: 65vh;
+	width: 100%;
+}
+
+.item-video{
+
+	background-color: gray;
+	border-radius: 0.5em;
+	margin-top: -4em;
+	padding: 1.5em 0;
+}
+
+.item-video h3{
+
+	color:#fff;
+	text-align: center;
+}
+
+#uno{
+
+	background-color: #f9c00c;
+}
+
+
+#dos{
+
+	background-color: #c03546;
+}
+
+#tres{
+
+	background-color: #004e66;
+}
+
+
+
+#recent h2{
+
+	text-align: center;
+}
+
+.item-recent{
+
+	
+	margin-top: 4em;
+	text-align: center;
+}
+
+.item-recent h4{
+
+	font-size: 1.4em;
+	font-weight: 800;
+	padding-top: 0.5em;
+}
+
+.item-recent h5{
+
+	color:#ccc;
+	font-size: 1em;
+}
+
+.item-recent a{
+
+	color: #c03546;
+}
+
+
+#how{
+
+	background-color: #c03546;
+	color:#fff;
+}
+
+#how h2{
+
+	color: #fff;
+	font-size: 3em;
+	text-align: center;
+}
+
+#how p{
+
+	color:#f5f5f5;
+	font-size: 1em;
+	padding: 1em 0;
+
+}
+
+#how ul{
+
+	margin-left: -20px;
+
+}
+
+#how ul li{
+	
+	border-bottom:1px solid #ccc;
+	list-style: none;
+	padding: 0.5em 0;
+} 
+
+#how ul li i{
+
+	font-size: 2em;
+	font-weight: 200;
+	margin-right: 0.5em;
+	margin-top: 0.5em;
+}
+
+.button{
+	
+	border:1px solid #fff;
+	border-radius:5px;
+	color:#fff;
+	margin-top: 2em;
+	padding: 0.5em 1em;
+	text-align: center;
+
+
+}
+
+.button:hover{
+
+	background-color: #fff;
+}
+
+.button:hover a{
+
+	color:#c03546;
+}
+
+.button a{
+
+	color: #fff;
+}
+
+
+#footer{
+
+	background-color: #272625;
+}
+
+.ellogo{
+
+	text-align: center;
+}
+
+.direccion{
+
+	margin-top: 2em;
+}
+
+.direccion ul li{
+
+	font-size: 0.9em;
+	list-style: none;
+	text-align: center;
+}
+
+.direccion ul li i{
+
+	margin-right: 0.5em;
+}
+
+#youtube{
+
+	text-align: center;
+	margin-top: 1em;
+}
+
+#youtube i{
+
+	color:#c03546;
+	font-size: 5em;
+
+}
+
+.sociales{
+	text-align: center;
+}
+
+.sociales i{
+
+	color:#9a9a9a;
+	font-size: 1.5em;
+	margin-top: 1em;
+}
+
+#final{
+	
+	text-align: center;
+	margin-top: 1em;
+}
+
+#final a{
+
+	color:#9a9a9a;
+	font-size: 0.6em;
+	letter-spacing: 5px;
+	margin-top: 1em;
+}
